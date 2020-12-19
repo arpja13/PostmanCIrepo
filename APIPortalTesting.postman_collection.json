@@ -18,6 +18,20 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Login2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}",
+					"host": [
+						"{{URL}}"
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"auth": {
@@ -37,10 +51,8 @@
 	},
 	"variable": [
 		{
-			"id": "bdedcf9a-899c-4979-b401-e012526b1372",
 			"key": "URL",
 			"value": "http://ta-apiportal-preprod-alb-1637178661.us-east-1.elb.amazonaws.com/"
 		}
-	],
-	"protocolProfileBehavior": {}
+	]
 }
