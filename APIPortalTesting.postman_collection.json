@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "ba4c95e7-b681-4ca1-b751-8be3c2c5b389",
+		"name": "APIPortalTesting",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}",
+					"host": [
+						"{{URL}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "username",
+				"value": "new3@test.com",
+				"type": "string"
+			},
+			{
+				"key": "password",
+				"value": "Testing@123",
+				"type": "string"
+			}
+		]
+	},
+	"variable": [
+		{
+			"id": "bdedcf9a-899c-4979-b401-e012526b1372",
+			"key": "URL",
+			"value": "http://ta-apiportal-preprod-alb-1637178661.us-east-1.elb.amazonaws.com/"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
