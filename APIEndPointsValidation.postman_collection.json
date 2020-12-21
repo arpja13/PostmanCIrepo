@@ -10,6 +10,33 @@
 			"name": "preprod",
 			"item": [
 				{
+					"name": "Portal Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{PortalURL}}",
+							"host": [
+								"{{PortalURL}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "GET datasource ep",
 					"event": [
 						{
@@ -1111,8 +1138,8 @@
 			"value": "http://ta-kong-preprod-alb-1075443341.us-east-1.elb.amazonaws.com"
 		},
 		{
-			"key": "Authorization",
-			"value": "Basic MTExODEyMTBAdGVzdC5jb206VGVzdGluZ0AxMjM="
+			"key": "PortalURL",
+			"value": "http://ta-apiportal-preprod-alb-1637178661.us-east-1.elb.amazonaws.com/"
 		}
 	]
 }
