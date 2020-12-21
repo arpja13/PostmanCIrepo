@@ -1,0 +1,11 @@
+Test components:
+
+1. Historical Loader (DI testing) Tosca Commander Integration
+2. Ingress Service Changes - docker image
+3. Egress Service Changes
+4. Login to HDP - automate login/validation of datasources using API
+5. API GW Initializer APP
+6. API Portal Login
+7. Excel Testing
+
+Integrate these things with Jenkins
