@@ -6,21 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "Login",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "{{URL}}",
-					"host": [
-						"{{URL}}"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Login2",
+			"name": "Login Validation",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -39,7 +25,7 @@
 		"basic": [
 			{
 				"key": "username",
-				"value": "new3@test.com",
+				"value": "11181210@test.com",
 				"type": "string"
 			},
 			{
@@ -49,6 +35,26 @@
 			}
 		]
 	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
 	"variable": [
 		{
 			"key": "URL",
