@@ -9,3 +9,10 @@ Test components:
 7. Excel Testing
 
 Integrate these things with Jenkins
+
+1. Tosca Automation for DI
+2.Excel Test Automation 
+3. Postman automation for qtest = api response
+4. Tosca Automation to automate qtest > validate Staging DB > Validate TA DB > Validate Public DB > Validate HDP has the User > Validate user is able to login to Api portal
+
+ and api response
